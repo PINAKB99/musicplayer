@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
-import * as mm from 'music-metadata';
+import * as mm from 'music-metadata';   // <-- star import (not default)
+
 
 
 
