@@ -1,6 +1,19 @@
 {
-"name": "musicplayer-server",
-"version": "1.0.0",
-"type": "module",
-"scripts": { "dev": "nodemon server.js", "start": "node server.js", "scan": "node scan.js" }
+  "name": "musicplayer-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "scan": "node scan.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mime": "^4.0.4",
+    "music-metadata": "^10.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
